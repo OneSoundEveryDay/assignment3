@@ -1,0 +1,10 @@
+body {
+width: 90%;
+margin: 0 auto; margin-top: 1rem;
+background-color: rgba(226, 110, 43, 0.184);
+}
+#text {
+width: 100%;
+height: 50vh;
+}
+
