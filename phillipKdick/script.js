@@ -1,23 +1,9 @@
-
-
-
-function press() {
-const text = "thank you daddy";
-
-const utterance = new SpeechSynthestsUtterance(text);
-utterance.pitch = 0.3;
-
-
-window.speechSynthests. speak( utterance);
-
-}
-
 const canvas = document. getElementById('canvas1');
 const ctx = canvas. getContext ('2d');
 const CANVAS_WIDTH = canvas.width = 800;
 const CANVAS_HEIGHT = canvas. height = 800;
 let gameSpeed = 3;
-// let gameFrame = 0;
+
 
 const backgroundLayer1 = new Image ();
 backgroundLayer1.src ='layer-1.png';
